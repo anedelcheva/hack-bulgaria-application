@@ -9,3 +9,4 @@ volumeOfTetrahedron edge = edge^3 * sqrt 2 / 12
 -- the function fill_tetrahedron returns the amount of water that can be filled in the tetrahedron
 --solution with the function composition (.)
 fill_tetrahedron = fromCubicCmToL.volumeOfTetrahedron
+
